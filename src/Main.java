@@ -13,8 +13,9 @@ public class Main {
                     System.out.println("Enter second value: ");
                     Float y = scanner.nextFloat();
                     System.out.println("What do you want to do? Choose: \n1.addition\n2.substraction\n3.division\n4.multiplication");
+                    int select2 = scanner.nextInt();
                     CalculatorBooster cal1 = new CalculatorBooster();
-                    switch (select) {
+                    switch (select2) {
                         case 1:
                             System.out.println(cal1.addition(x, y));
                             break;
