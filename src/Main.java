@@ -29,7 +29,13 @@ public class Main {
                             System.out.println(cal1.multiplication(x, y));
                             break;
                     }
-                    select++;
+                    System.out.println("Do you want to count something new ?\n1.No\n2.Yes");
+                    Integer select3 = scanner.nextInt();
+                    if (select3==1){
+                       break;}
+                        else{
+                            select++;
+                    }
                 }
         }
     }
